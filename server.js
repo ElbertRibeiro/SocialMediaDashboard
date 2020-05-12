@@ -1,28 +1,30 @@
 var http = require('http');
 var fs = require('fs');
+var path = require('path');
 
-var server = http.createServer(function (req, resp) {
-    
-    if (req.url === "/") {
-        fs.readFile("./index.html", function (error, pgResp) {
-            if (error) {
-                resp.writeHead(404);
-                resp.write('Contents you are looking are Not Found');
-            } else {
-                resp.writeHead(200, { 'Content-Type': 'text/html' });
-                resp.write(pgResp);
-            }
-             
-            resp.end();
+http.createServer(function(req, res){
+
+    if(req.url === "/"){
+        fs.readFile("./index.html", "UTF-8", function(err, html){
+            res.writeHead(200, {"Content-Type": "text/html"});
+            res.end(html);
         });
-    } else {
-        
-        resp.writeHead(200, { 'Content-Type': 'text/html' });
-        resp.write('<h1>Product Manaager</h1><br /><br />To create product please enter: ' + req.url);
-        resp.end();
-    }
-});
+    }else if(req.url.match("\.css$")){
+        var cssPath = path.join(__dirname, req.url);
+        var fileStream = fs.createReadStream(cssPath, "UTF-8");
+        res.writeHead(200, {"Content-Type": "text/css"});
+        fileStream.pipe(res);
 
-server.listen(3000);
+    }else if(req.url.match("\.png$")){
+        var imagePath = path.join(__dirname, req.url);
+        var fileStream = fs.createReadStream(imagePath);
+        res.writeHead(200, {"Content-Type": "image/png"});
+        fileStream.pipe(res);
+    }else{
+        res.writeHead(404, {"Content-Type": "text/html"});
+        res.end("No Page Found");
+    }
+
+}).listen(3000);
  
 console.log('Server Started listening on localhost:3000');
