@@ -54,6 +54,21 @@ export default function App() {
           </div>
         </div>
       </div>
+
+      <div>
+        <h2>Overview - Today</h2>
+
+        <div>
+          <h4>Pages Views <img alt="facebookLogo" src={facebookLogo}/></h4>
+          <p>87</p>
+        </div>
+
+
+      </div>
+
+
+
+
     </div>
   );
 }
