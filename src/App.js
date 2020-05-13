@@ -19,8 +19,8 @@ export default function App() {
 
       <div>
         <div className="card">
+        <h4><img alt="facebookLogo" src={facebookLogo} />  @nathanf</h4>
           <div className="container">
-            <h4><img alt="facebookLogo" src={facebookLogo} />  @nathanf</h4>
             <h2>1987</h2>
             <h3>Followers</h3>
             <p>2 Today</p>
@@ -28,8 +28,8 @@ export default function App() {
         </div>
 
         <div className="card">
+          <h4><img alt="twitterLogo" src={twitterLogo} />  @nathanf</h4>
           <div className="container">
-            <h4><img alt="twitterLogo" src={twitterLogo} />  @nathanf</h4>
             <h2>1044</h2>
             <h3>Followers</h3>
             <p>99 Today</p>
@@ -37,8 +37,8 @@ export default function App() {
         </div>
 
         <div className="card">
+          <h4><img alt="instagramLogo" src={instagramLogo} />  @realnathanf</h4>
           <div className="container">
-            <h4><img alt="instagramLogo" src={instagramLogo} />  @realnathanf</h4>
             <h2>11k</h2>
             <h3>Followers</h3>
             <p>1099 Today</p>
@@ -46,16 +46,14 @@ export default function App() {
         </div>
 
         <div className="card">
+          <h4><img alt="youtubeLogo" src={youtubeLogo} />  Nathan F.</h4>
           <div className="container">
-            <h4><img alt="youtubeLogo" src={youtubeLogo} />  Nathan F.</h4>
             <h2>8239</h2>
             <h3>Subscribers</h3>
             <p>144 Today</p>
           </div>
         </div>
       </div>
-
-
     </div>
   );
 }
