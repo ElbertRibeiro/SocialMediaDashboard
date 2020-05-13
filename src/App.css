@@ -73,7 +73,7 @@ input:checked + .slider:before {
 
     
     width: 225px;
-    margin-left: 75px;
+    margin-left: 80px;
     float: left;
     transition: 0.3s;
     
