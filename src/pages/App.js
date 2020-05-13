@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import facebookLogo from './assets/icon-facebook.svg';
-import twitterLogo from './assets/icon-twitter.svg';
-import instagramLogo from './assets/icon-instagram.svg';
-import youtubeLogo from './assets/icon-youtube.svg';
+import facebookLogo from '../assets/icon-facebook.svg';
+import twitterLogo from '../assets/icon-twitter.svg';
+import instagramLogo from '../assets/icon-instagram.svg';
+import youtubeLogo from '../assets/icon-youtube.svg';
 
 export default function App() {
   return (
