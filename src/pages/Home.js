@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './Home.css';
 import facebookLogo from '../assets/icon-facebook.svg';
 import twitterLogo from '../assets/icon-twitter.svg';
 import instagramLogo from '../assets/icon-instagram.svg';
