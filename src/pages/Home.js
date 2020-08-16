@@ -63,6 +63,21 @@ export default function App() {
           <p>87</p>
         </div>
 
+        <div>
+          <h4>Likes <img alt="facebookLogo" src={facebookLogo}/></h4>
+          <p>52</p>
+        </div>
+
+        <div>
+          <h4>Pages Views <img alt="instagramLogo" src={instagramLogo}/></h4>
+          <p>87</p>
+        </div>
+
+        <div>
+          <h4>Likes <img alt="instragramLogo" src={instagramLogo}/></h4>
+          <p>52</p>
+        </div>
+
 
       </div>
 
