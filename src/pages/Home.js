@@ -1,9 +1,9 @@
 import React from 'react';
-import './App.css';
-import facebookLogo from './assets/icon-facebook.svg';
-import twitterLogo from './assets/icon-twitter.svg';
-import instagramLogo from './assets/icon-instagram.svg';
-import youtubeLogo from './assets/icon-youtube.svg';
+import './Home.css';
+import facebookLogo from '../assets/icon-facebook.svg';
+import twitterLogo from '../assets/icon-twitter.svg';
+import instagramLogo from '../assets/icon-instagram.svg';
+import youtubeLogo from '../assets/icon-youtube.svg';
 
 export default function App() {
   return (
@@ -61,6 +61,21 @@ export default function App() {
         <div>
           <h4>Pages Views <img alt="facebookLogo" src={facebookLogo}/></h4>
           <p>87</p>
+        </div>
+
+        <div>
+          <h4>Likes <img alt="facebookLogo" src={facebookLogo}/></h4>
+          <p>52</p>
+        </div>
+
+        <div>
+          <h4>Pages Views <img alt="instagramLogo" src={instagramLogo}/></h4>
+          <p>87</p>
+        </div>
+
+        <div>
+          <h4>Likes <img alt="instragramLogo" src={instagramLogo}/></h4>
+          <p>52</p>
         </div>
 
 
