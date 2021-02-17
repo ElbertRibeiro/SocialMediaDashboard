@@ -1,6 +1,6 @@
 # Frontend Mentor - Social media dashboard with theme switcher
 
-![Design preview for the Social media dashboard with theme switcher coding challenge](template/desktop-preview.jpg)
+![Design preview for the Social media dashboard with theme switcher coding challenge](.github/desktop-preview.jpg)
 
 ## Welcome! 👋
 
