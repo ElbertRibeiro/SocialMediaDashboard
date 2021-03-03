@@ -5,72 +5,94 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="./styles/slyles.css">
+  <link rel="stylesheet" type="text/css" href="./style/styles.css">
   <title>Social Media Dashboard</title>
 </head>
 
 <body>
-  <div class="App">
+
+  <div class="header">
+    <label class="switch">
+      <input type="checkbox" />
+      <span class="slider round"></span>
+    </label>
     <div>
-      <h1>Social Media Dashboard</h1>
-      <h2>Total Followers: 23,005</h2>
-      <label class="switch">
-        <input type="checkbox" />
-        <span class="slider round"></span>
-      </label>
+      <h1>Social Media Dashboard
+        <br>
+        <h4>Total Followers: 23,005</h4></br>
+      </h1>
     </div>
-    <div>
-      <div class="card">
-        <h4><img alt="facebookLogo" src="assets/svg/icon-facebook.svg" /> @nathanf</h4>
-        <div class="container">
-          <h2>1987</h2>
-          <h3>Followers</h3>
-          <p>2 Today</p>
-        </div>
-      </div>
-      <div class="card">
-        <h4><img alt="twitterLogo" src="assets/svg/icon-twitter.svg" /> @nathanf</h4>
-        <div class="container">
-          <h2>1044</h2>
-          <h3>Followers</h3>
-          <p>99 Today</p>
-        </div>
-      </div>
-      <div class="card">
-        <h4><img alt="instagramLogo" src="assets/svg/icon-instagram.svg" /> @realnathanf</h4>
-        <div class="container">
-          <h2>11k</h2>
-          <h3>Followers</h3>
-          <p>1099 Today</p>
-        </div>
-      </div>
-      <div class="card">
-        <h4><img alt="youtubeLogo" src="assets/svg/icon-youtube.svg" /> Nathan F.</h4>
-        <div class="container">
-          <h2>8239</h2>
-          <h3>Subscribers</h3>
-          <p>144 Today</p>
-        </div>
+  </div>
+
+  <div class="followers">
+    <div class="followers-card">
+      <h4><img alt="facebookLogo" src="assets/svg/icon-facebook.svg" /> @nathanf</h4>
+      <div class="container">
+        <h2 class="w7">1987</h2>
+        <p style="text-transform: uppercase;">Followers</p>
+        <p><img src="assets/svg/icon-up.svg" /> 2 Today</p>
       </div>
     </div>
-    <div class="">
-      <h2>Overview - Today</h2>
-      <div class="card">
-        <h4>Pages Views <img alt="facebookLogo" src="assets/svg/icon-facebook.svg" /></h4>
-        <p>87</p>
+    <div class="followers-card">
+      <h4><img alt="twitterLogo" src="assets/svg/icon-twitter.svg" /> @nathanf</h4>
+      <div class="container">
+        <h2>1044</h2>
+        <p style="text-transform: uppercase;">Followers</p>
+        <p><img src="assets/svg/icon-up.svg" />99 Today</p>
       </div>
-      <div class="card">
-        <h4>Likes <img alt="facebookLogo" src="assets/svg/icon-facebook.svg" /></h4>
-        <p>52</p>
+    </div>
+    <div class="followers-card">
+      <h4><img alt="instagramLogo" src="assets/svg/icon-instagram.svg" /> @realnathanf</h4>
+      <div class="container">
+        <h2>11k</h2>
+        <p style="text-transform: uppercase;">Followers</p>
+        <p><img src="assets/svg/icon-up.svg" />1099 Today</p>
       </div>
-      <div class="card">
-        <h4>Pages Views <img alt="instagramLogo" src="assets/svg/icon-instagram.svg" /></h4>
-        <p>87</p>
+    </div>
+    <div class="followers-card">
+      <h4><img alt="youtubeLogo" src="assets/svg/icon-youtube.svg" /> Nathan F.</h4>
+      <div class="container">
+        <h2>8239</h2>
+        <p style="text-transform: uppercase;">Subscribers</p>
+        <p><img src="assets/svg/icon-down.svg" />144 Today</p>
       </div>
-      <div class="card">
-        <h4>Likes <img alt="instragramLogo" src="assets/svg/icon-instagram.svg" /></h4>
-        <p>52</p>
-      </div>
+    </div>
+  </div>
+
+  <div class="overview">
+    <h2>Overview - Today</h2>
+
+    <div class="overview-card">
+      <h4>Pages Views <img alt="Facebook Logo" src="assets/svg/icon-facebook.svg" /></h4>
+      <p>87</p>
+    </div>
+    <div class="overview-card">
+      <h4>Likes <img alt="Facebook Logo" src="assets/svg/icon-facebook.svg" /></h4>
+      <p>52</p>
+    </div>
+    <div class="overview-card">
+      <h4>Pages Views <img alt="Instagram Logo" src="assets/svg/icon-instagram.svg" /></h4>
+      <p>87</p>
+    </div>
+    <div class="overview-card">
+      <h4>Likes <img alt="Instragram Logo" src="assets/svg/icon-instagram.svg" /></h4>
+      <p>52</p>
+    </div>
+    <div class="overview-card">
+      <h4>Likes <img alt="Twitter Logo" src="assets/svg/icon-twitter.svg" /></h4>
+      <p>52</p>
+    </div>
+    <div class="overview-card">
+      <h4>Likes <img alt="Twitter Logo" src="assets/svg/icon-twitter.svg" /></h4>
+      <p>52</p>
+    </div>
+    <div class="overview-card">
+      <h4>Likes <img alt="Youtube Logo" src="assets/svg/icon-youtube.svg" /></h4>
+      <p>52</p>
+    </div>
+    <div class="overview-card">
+      <h4>Likes <img alt="Youtube Logo" src="assets/svg/icon-youtube.svg" /></h4>
+      <p>52</p>
     </div>
   </div>
 </body>

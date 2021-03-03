@@ -1,0 +1,19 @@
+@import url('https://fonts.google.com/specimen/Inter');
+
+
+* {
+    font-family: Inter;
+}
+
+html {
+    max-width: 1440px;
+    margin: 8px 8px 0px;
+}
+  
+body {
+    margin: 30px;
+    padding: 0;
+}
+
+@import './partials/layout';
+@import './partials/button';

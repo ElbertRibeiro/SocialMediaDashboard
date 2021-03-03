@@ -45,8 +45,6 @@ The designs were created to the following widths:
 - Dark Grayish Blue (Text): hsl(228, 12%, 44%)
 - Very Dark Blue (Text): hsl(230, 17%, 14%)
 
-## Typography
-
 ### Body Copy
 
 - Font size (Overview Card Headings): 14px
