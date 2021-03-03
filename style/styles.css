@@ -13,6 +13,7 @@ body {
   padding: 0;
 }
 
+/*Light Theme*/
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,10 +23,10 @@ body {
 .followers {
   border: 2px solid red;
   display: block;
-  background-color: #aeb3cb;
 }
 
 .followers .followers-card {
+  background-color: #f5f7ff;
   border: 2px solid blue;
   float: left;
   margin: 0px 25px 5px;
@@ -43,10 +44,15 @@ body {
 }
 
 .overview .overview-card {
+  background-color: #f5f7ff;
   border: 2px solid pink;
   margin: 10px 15px 0;
   float: left;
   width: 20%;
+}
+
+.overview .overview-card h4 {
+  font-size: 14px;
 }
 
 .card {
@@ -64,10 +70,6 @@ body {
 .card :hover {
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.w7 {
-  font-weight: bold;
 }
 
 .switch {

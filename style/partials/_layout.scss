@@ -1,3 +1,5 @@
+@import './colors';
+
 .header {
     display: flex;
 }
@@ -7,9 +9,12 @@
 
     display: block;
 
-    background-color: hsl(230, 22%, 74%);
+    
 
     .followers-card {
+
+        background-color: $cl-4;
+
         border: 2px solid blue;
         float: left;
         margin: 0px 25px 5px;
@@ -28,15 +33,19 @@
     border: 2px solid green;
 
     .overview-card {
+        background-color: $cl-4;
+
         border: 2px solid pink;
 
         margin: 10px 15px 0;
         float: left;
         width: 20%;
-        
+
+        h4 {
+            font-size: 14px;
+        }
     }
 }
-  
   
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -51,9 +60,5 @@
     }
 }
 
-
-.w7 {
-    font-weight: bold;
-}
 
    
